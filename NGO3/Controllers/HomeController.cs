@@ -35,5 +35,25 @@ namespace NGO3.Controllers
 
             return View();
         }
-    }
+
+        public ActionResult Register()
+        {
+            return View();
+        }
+        [HttpPost]
+		public ActionResult Register(string name)
+		{
+			return View();
+		}
+		public ActionResult Login()
+		{
+			return View();
+		}
+		[HttpPost]
+		public ActionResult Login(string name)
+		{
+			return View();
+		}
+
+	}
 }
